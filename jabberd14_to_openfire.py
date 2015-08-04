@@ -222,7 +222,7 @@ for user in users:
 
         # Not all contacts are in a group
         if contact["group"]:
-            item["group"] = contact["group"]
+            item["Group"] = contact["group"]
 
         entry["Roster"]["Item"].append(item)
 
