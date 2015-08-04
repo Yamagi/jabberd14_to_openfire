@@ -219,6 +219,8 @@ for user in users:
             item["@substatus"] = "2"
         elif contact["subscription"] == "both":
             item["@substatus"] = "3"
+        else:
+            item["@substatus"] = "-1"
 
         # Not all contacts are in a group
         if contact["group"]:
